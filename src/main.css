@@ -1,6 +1,9 @@
 /* global style */
 .text-sp {
-  color: #53dca6;
+  color: #53dca6 !important;
+}
+* {
+  text-wrap: balance;
 }
 /* start nav style */
 
@@ -10,8 +13,8 @@
   padding-top: 15px !important;
 }
 
-.logo{
-    width: 40px;
+.logo {
+  width: 40px;
 }
 
 .nav {
@@ -23,7 +26,7 @@
   background-color: #383838;
   border: #289168 2px solid;
   border-radius: 4px;
-  gap: 30px;
+  gap: 25px;
 }
 
 .nav .nav-link {
@@ -34,15 +37,15 @@
 /* end nav style */
 
 /* start home section style */
-.home-descreption p {
+.home-content p {
   color: #ffffff;
-  font-size: 40%;
+  font-size: 0.5rem;
+  line-height: 1.7;
 }
 .hero-img {
   width: 80%;
   margin-bottom: -10%;
   position: relative;
-  right: -15px;
   z-index: 10;
 }
 .hero-img-container {
@@ -52,7 +55,7 @@
   content: "";
   position: absolute;
   top: 10%;
-  right: -135%;
+  right: -130%;
   z-index: 5;
   width: 150%;
   height: 150%;
@@ -65,4 +68,43 @@
   left: 5%;
   width: 70%;
 }
+
+.download-app {
+  width: 24%;
+}
+.download-app img {
+  width: 100%;
+}
 /* end home section style */
+
+@media screen and (min-width: 425px) {
+  .logo {
+    width: 60px;
+  }
+  .download-links {
+    margin: 0px 0 !important;
+  }
+  .home-content {
+    justify-content: end !important;
+  }
+  * {
+    font-size: 9px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 70px;
+  }
+  .download-links {
+    margin: 40px 0 !important;
+  }
+  .home-content {
+    justify-content: end !important;
+  }
+  .hero-img-container::after {
+    transform: rotate(25deg);
+  }
+  * {
+    font-size: 15px !important;
+  }
+}

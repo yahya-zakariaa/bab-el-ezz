@@ -2,9 +2,7 @@
 .text-sp {
   color: #53dca6 !important;
 }
-* {
-  text-wrap: balance;
-}
+
 /* start nav style */
 
 #nav {
@@ -43,10 +41,12 @@
   line-height: 1.7;
 }
 .hero-img {
-  width: 80%;
+  width: 65%;
   margin-bottom: -10%;
+  image-orientation: from-image;
   position: relative;
   z-index: 10;
+  
 }
 .hero-img-container {
   position: relative;
@@ -55,7 +55,7 @@
   content: "";
   position: absolute;
   top: 10%;
-  right: -130%;
+  right: -134%;
   z-index: 5;
   width: 150%;
   height: 150%;
@@ -65,8 +65,9 @@
 .hero-mobile {
   position: absolute;
   bottom: -5px;
-  left: 5%;
-  width: 70%;
+  left: 23%;
+  width: 50%;
+  z-index: 9;
 }
 
 .download-app {
@@ -82,7 +83,7 @@
     width: 60px;
   }
   .download-links {
-    margin: 0px 0 !important;
+    margin: 30px 0 !important;
   }
   .home-content {
     justify-content: end !important;
@@ -93,7 +94,7 @@
 }
 @media screen and (min-width: 768px) {
   .logo {
-    width: 70px;
+    width: 80px;
   }
   .download-links {
     margin: 40px 0 !important;

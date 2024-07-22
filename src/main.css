@@ -340,7 +340,15 @@
     overflow: hidden;
   }
 
-  
+  #home{
+    height: 100vh !important;
+  }
+  .download-app{
+    transform: translateY(-200%);
+  }
+  .hero-img-col{
+    transform: translateY(-20%);
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -358,5 +366,14 @@
   .title-shape::after {
     height: 110% !important;
     width: 140px;
+  }
+  #home{
+    height: 100vh !important;
+  }
+  .download-app{
+    transform: translateY(-200%);
+  }
+  .hero-img-col{
+    transform: translateY(-20%);
   }
 }

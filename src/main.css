@@ -51,6 +51,12 @@
   font-size: 0.8rem;
   line-height: 1.7;
 }
+.home-row{
+  height: fit-content;
+}
+.home-content-col{
+  height: fit-content !important;
+}
 .hero-img {
   width: 100%;
   position: relative;
@@ -199,7 +205,6 @@
     width: 50% !important;
     padding: 0 5% !important;
     gap: 7% !important;
-    margin-bottom: 15px;
   }
   .hero-img-col {
     width: 40%;
@@ -334,9 +339,11 @@
     height: 600px !important;
     overflow: hidden;
   }
+
+  
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .information-content {
     height: 540px !important;
     overflow: hidden;

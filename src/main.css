@@ -69,10 +69,10 @@
   position: relative;
   background-image: linear-gradient(to right, #a6a6a6, #2ebd85);
   color: var(--light-color);
-  width: 50%;
+  width: 60%;
 }
 .title-shape h6 {
-  font-size: 12px;
+  font-size: 15px;
   margin: 0 !important;
 }
 .title-shape::after {

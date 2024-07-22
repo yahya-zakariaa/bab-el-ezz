@@ -51,12 +51,6 @@
   font-size: 0.8rem;
   line-height: 1.7;
 }
-.home-row{
-  height: fit-content;
-}
-.home-content-col{
-  height: fit-content !important;
-}
 .hero-img {
   width: 100%;
   position: relative;
@@ -205,6 +199,7 @@
     width: 50% !important;
     padding: 0 5% !important;
     gap: 7% !important;
+    margin-bottom: 15px;
   }
   .hero-img-col {
     width: 40%;
@@ -339,16 +334,6 @@
     height: 600px !important;
     overflow: hidden;
   }
-
-  #home{
-    height: 100vh !important;
-  }
-  .download-app{
-    transform: translateY(-200%);
-  }
-  .hero-img-col{
-    transform: translateY(-20%);
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -370,10 +355,10 @@
   #home{
     height: 100vh !important;
   }
-  .download-app{
-    transform: translateY(-210%);
-  }
-  .hero-img-col{
+  .hero-img-container{
     transform: translateY(-20%);
+  }
+  .download-app-col{
+    transform: translateY(-200%);
   }
 }

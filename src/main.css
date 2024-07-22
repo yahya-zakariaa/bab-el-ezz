@@ -371,9 +371,9 @@
     height: 100vh !important;
   }
   .download-app{
-    transform: translateY(-200%);
+    transform: translateY(-210%);
   }
   .hero-img-col{
-    transform: translateY(-20%);
+    transform: translateY(-25%);
   }
 }

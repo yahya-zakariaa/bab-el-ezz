@@ -21,7 +21,7 @@
   color: var(--light-color);
   margin-bottom: 25px !important;
   padding: 10px 15px !important;
-  width: 70%;
+  width: 60%;
 }
 .title-shape h6 {
   font-size: 16px;
@@ -33,7 +33,7 @@
   width: 90px;
   height: 115%;
   background: var(--light-color);
-  left: -15%;
+  left: -10%;
   transform: rotate(-45deg);
   top: -40%;
   z-index: 3;
@@ -264,13 +264,12 @@
 
   .title-shape::after {
     left: -10%;
-
   }
 }
 @media screen and (min-width: 768px) {
-.home-content p{
-  font-size: 17px !important;
-}
+  .home-content p {
+    font-size: 17px !important;
+  }
   .home-content-col {
     width: 60%;
   }
@@ -351,7 +350,6 @@
 }
 
 @media screen and (min-width: 1024px) {
- 
   .navbar-brand {
     width: 20% !important;
     margin: 0 !important;
@@ -366,14 +364,14 @@
     border-radius: 4px;
     gap: 10%;
   }
-  .nav-link{
+  .nav-link {
     font-size: 20px !important;
   }
-  .home-content p{
-font-size: 27px !important;
+  .home-content p {
+    font-size: 27px !important;
   }
-  .home-content p span{
-font-size: 27px !important;
+  .home-content p span {
+    font-size: 27px !important;
   }
   .download-app img {
     width: 150px;
@@ -399,13 +397,13 @@ font-size: 27px !important;
     font-size: 18px !important;
   }
 
-  .info-col h6.text-sp-2{
+  .info-col h6.text-sp-2 {
     font-size: 22px !important;
   }
   .info-content {
     font-size: 18px !important;
   }
-  .mobile-video{
+  .mobile-video {
     width: 70% !important;
   }
   .sub-title {
@@ -424,7 +422,7 @@ font-size: 27px !important;
     font-size: 20px !important;
     font-weight: 400;
   }
-  .price-sp  {
+  .price-sp {
     font-size: 20px !important;
     font-weight: 400;
   }

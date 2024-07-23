@@ -14,6 +14,29 @@
   --light-color: #fff;
 }
 
+/* title shape */
+.title-shape {
+  position: relative;
+  background-image: linear-gradient(to right, #a6a6a6, #2ebd85);
+  color: var(--light-color);
+  width: 70%;
+}
+.title-shape h6 {
+  font-size: 16px;
+  margin: 0 !important;
+}
+.title-shape::after {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 115%;
+  background: var(--light-color);
+  left: -15%;
+  transform: rotate(-45deg);
+  top: -40%;
+  z-index: 3;
+}
+
 /* start loading layer style */
 .loadingPage {
   position: fixed;
@@ -127,27 +150,7 @@
 /* end home section style */
 
 /* start information section */
-.title-shape {
-  position: relative;
-  background-image: linear-gradient(to right, #a6a6a6, #2ebd85);
-  color: var(--light-color);
-  width: 70%;
-}
-.title-shape h6 {
-  font-size: 14px;
-  margin: 0 !important;
-}
-.title-shape::after {
-  content: "";
-  position: absolute;
-  width: 90px;
-  height: 115%;
-  background: var(--light-color);
-  left: -15%;
-  transform: rotate(-45deg);
-  top: -40%;
-  z-index: 3;
-}
+
 
 .information-content {
   height: 400px !important;

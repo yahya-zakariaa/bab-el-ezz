@@ -235,6 +235,14 @@
   width: 300px;
 }
 /* end uses section */
+/* start sections style */
+.sections-row{
+  box-shadow: 0 5px 30px -20px rgba(0, 0, 0, 0.444);
+}
+.sections-row .row-title{
+  font-size: 18px !important;
+}
+/* end sections style */
 
 @media screen and (min-width: 425px) {
   #uses {

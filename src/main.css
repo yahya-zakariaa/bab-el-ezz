@@ -3,7 +3,7 @@
   color: var(--secondery-color) !important;
 }
 .text-sp-2 {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 :root {
@@ -172,7 +172,7 @@
   z-index: 1;
 }
 .info-sub-title {
-  font-size: 15px !important;
+  font-size: 14px !important;
   font-weight: bold !important;
 }
 .info-content {
@@ -186,7 +186,7 @@
 /* start subscription section */
 .sub-title {
   font-size: 15px !important;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 15px !important;
 }
 .sub-p {
@@ -195,13 +195,13 @@
   margin-bottom: 15px !important;
 }
 .get-price-sub {
-  font-size: 17px !important;
-  font-weight: 600;
+  font-size:18px !important;
+  font-weight: 700;
   margin-bottom: 15px !important;
 }
 .price-sp {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 500;
   margin-bottom: 15px !important;
 }
 .download-app-form-sub img {

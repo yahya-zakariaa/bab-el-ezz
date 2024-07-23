@@ -46,7 +46,7 @@
   height: 100%;
   background-color: #2e2e2e;
   z-index: 99999999999999;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 .loader {
   width: 48px;
@@ -133,7 +133,7 @@
   height: fit-content !important;
 
   width: 100% !important;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 .hero-img {
@@ -150,7 +150,6 @@
 /* end home section style */
 
 /* start information section */
-
 
 .information-content {
   height: 400px !important;
@@ -173,35 +172,35 @@
   z-index: 1;
 }
 .info-sub-title {
-  font-size: 14px !important;
+  font-size: 15px !important;
   font-weight: bold !important;
 }
 .info-content {
-  font-size: 12px;
+  font-size: 14px;
 }
 .info-sp {
-  font-size: 14px;
+  font-size: 16px;
 }
 /* end information section */
 
 /* start subscription section */
 .sub-title {
-  font-size: 14px !important;
+  font-size: 15px !important;
   font-weight: 600;
   margin-bottom: 15px !important;
 }
 .sub-p {
-  font-size: 14px !important;
+  font-size: 13px !important;
   font-weight: 400;
   margin-bottom: 15px !important;
 }
 .get-price-sub {
-  font-size: 16px !important;
+  font-size: 17px !important;
   font-weight: 600;
   margin-bottom: 15px !important;
 }
 .price-sp {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   margin-bottom: 15px !important;
 }
@@ -239,11 +238,11 @@
 }
 /* end uses section */
 /* start sections style */
-.sections-row{
+.sections-row {
   box-shadow: 0 5px 30px -20px rgba(0, 0, 0, 0.444);
 }
-.sections-row .row-title{
-  font-size: 18px !important;
+.sections-row .row-title {
+  font-size: 17px !important;
 }
 /* end sections style */
 

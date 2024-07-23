@@ -4,8 +4,11 @@ const infoLayer = document.querySelector(".info-layer");
 const mainHeight = $(info).height();
 
 $(function () {
-    $(".loadingPage").css("opacity", "0");
-    $(".loadingPage").css("z-index", "-1111");
+    setTimeout(() => {
+        
+        $(".loadingPage").css("opacity", "0");
+        $(".loadingPage").css("z-index", "-1111");
+    },1000)
     
     
 })

@@ -63,7 +63,7 @@ ScrollReveal().reveal(".download-app", {
   delay: 150,
   origin: "left",
   distance: "150px",
-  reset: true,
+  reset: false,
 });
 
 ScrollReveal().reveal(".title-shape", {

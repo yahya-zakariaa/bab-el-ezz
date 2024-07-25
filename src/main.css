@@ -10,10 +10,9 @@
   background-color: var(--boxs-color) !important;
 }
 
-.question-close{
+.question-close {
   height: 55px !important;
 }
-
 
 :root {
   --primary-color: #289168;
@@ -291,14 +290,12 @@
   font-weight: 700;
   margin-bottom: 15px !important;
 }
-.question{
-  transition: all .5s ease;
-}
-.question-content{
+
+.question-content {
   display: none;
   margin-top: 25px !important;
 }
-.question-title{
+.question-title {
   margin: 0 !important;
 }
 

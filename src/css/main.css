@@ -638,8 +638,8 @@ body {
     height: 100vh !important;
   }
 
-  .hero-img-container {
-    transform: translateY(-20%);
+  .hero-img {
+    transform: translateY(-40%) !important;
   }
 
   .download-app-col {

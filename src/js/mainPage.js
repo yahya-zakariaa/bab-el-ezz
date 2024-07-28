@@ -121,7 +121,7 @@ ScrollReveal().reveal(".download-app-form-sub", {
 });
 
 ScrollReveal().reveal(".mobile-video", {
-  delay: 100,
+  delay: 200,
   origin: "bottom",
   distance: "200px",
   reset: true,

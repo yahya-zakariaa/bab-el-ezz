@@ -563,6 +563,9 @@
     font-size: 20px !important;
     font-weight: 400;
   }
+  #articale-1 .articale-img{
+    width: 30% !important;
+  }
 }
 
 @media screen and (min-width: 1440px) {

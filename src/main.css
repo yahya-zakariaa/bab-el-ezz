@@ -325,7 +325,11 @@
     padding: 48px 35px !important;
   }
 }
-
+@media screen and (min-width: 375px) {
+  #articales .title-shape h6 {
+    font-size: 16px !important;
+  } 
+}
 @media screen and (min-width: 425px) {
   #uses {
     margin-top: 270px !important;

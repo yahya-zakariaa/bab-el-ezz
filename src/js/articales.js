@@ -82,13 +82,13 @@ ScrollReveal().reveal(".articaleBtn ", {
   delay: 150,
   origin: "left",
   distance: "200px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".articale-img ", {
   delay: 100,
   origin: "bottom",
   distance: "200px",
-  reset: false,
+  reset: true,
 });
 ScrollReveal().reveal(".footer-links h5 ", {
   delay: 100,

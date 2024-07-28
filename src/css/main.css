@@ -363,6 +363,9 @@ body {
   #articales .title-shape h6 {
     font-size: 16px !important;
   }
+  .title-shape h6 {
+    font-size: 16px !important;
+  }
   .mobile-video {
     width: 50% !important;
     transform: translateY(30%) !important;

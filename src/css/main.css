@@ -633,6 +633,9 @@ body {
   #articales .title-shape h6 {
     font-size: 20px !important;
   }
+  #home{
+    padding-top: 100px !important;
+  }
   .hero-img-container {
     width: 45% !important;
     height: fit-content !important;
@@ -644,7 +647,7 @@ body {
   }
 
   .hero-img-container img {
-    width: 95% !important;
+    width: 90% !important;
   }
   .home-content p {
     color: var(--light-color);
@@ -652,17 +655,41 @@ body {
     height: fit-content !important;
     width: 100% !important;
     font-size: 22px;
-    line-height: 1.8 !important;
+    line-height: 1.6 !important;
     font-weight: 400;
   }
   .download-app {
     width: 130px !important;
   }
   .home-link-download {
-    margin-top: 35px !important;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
   }
 }
 
+@media screen and (min-width: 1030px) {
+  
+  .hero-img-container img {
+    width: 400px !important;
+  }
+  .home-content p {
+    color: var(--light-color);
+    padding: 0 4.3%;
+    height: fit-content !important;
+    width: 100% !important;
+    font-size: 22px;
+    line-height: 1.6 !important;
+    font-weight: 400;
+  }
+  .download-app {
+    width: 130px !important;
+  }
+  .home-link-download {
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+  }
+
+}
 @media screen and (min-width: 1440px) {
   .information-content {
     height: 540px !important;
@@ -729,12 +756,12 @@ body {
     padding: 0 4.3%;
     height: fit-content !important;
     width: 100% !important;
-    font-size: 27px;
-    line-height: 1.8 !important;
+    font-size: 25px;
+    line-height: 1.6 !important;
     font-weight: 400;
   }
   .hero-img-container img{
-    width: 75% !important;
+    width: 70% !important;
   }
   .download-app {
     width: 160px !important;
@@ -743,6 +770,6 @@ body {
     padding-right: 30px !important;
     gap: 60px !important;
     margin-top: 40px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 10px !important;
   }
 }

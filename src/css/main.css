@@ -733,11 +733,16 @@ body {
     line-height: 1.8 !important;
     font-weight: 400;
   }
+  .hero-img-container img{
+    width: 75% !important;
+  }
   .download-app {
     width: 160px !important;
   }
   .home-link-download {
     padding-right: 30px !important;
     gap: 60px !important;
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
   }
 }

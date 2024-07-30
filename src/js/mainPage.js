@@ -28,7 +28,12 @@ $(function () {
     }
   });
 });
-
+ScrollReveal().reveal(".logo", {
+  delay: 100,
+  origin: "left",
+  distance: "200px",
+  reset: true,
+});
 ScrollReveal().reveal(".nav-link", {
   delay: 180,
   origin: "top",
@@ -37,9 +42,9 @@ ScrollReveal().reveal(".nav-link", {
 });
 
 ScrollReveal().reveal(".nav", {
-  delay: 150,
+  delay: 250,
   origin: "right",
-  distance: "150px",
+  distance: "350px",
   reset: true,
 });
 
@@ -50,9 +55,9 @@ ScrollReveal().reveal(".home-content", {
   reset: true,
 });
 ScrollReveal().reveal(".hero-img", {
-  delay: 150,
+  delay: 250,
   origin: "bottom",
-  distance: "150px",
+  distance: "250px",
   reset: true,
 });
 
@@ -82,9 +87,9 @@ ScrollReveal().reveal(".info-content", {
   reset: true,
 });
 ScrollReveal().reveal(".section-two-img", {
-  delay: 100,
-  origin: "right",
-  distance: "150px",
+  delay: 150,
+  origin: "bottom",
+  distance: "250px",
   reset: true,
 });
 ScrollReveal().reveal(".get-price-sub", {
@@ -151,12 +156,6 @@ ScrollReveal().reveal(".customers-card", {
   delay: 100,
   origin: "bottom",
   distance: "400px",
-  reset: true,
-});
-ScrollReveal().reveal(".logo", {
-  delay: 100,
-  origin: "left",
-  distance: "200px",
   reset: true,
 });
 

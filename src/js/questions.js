@@ -24,7 +24,12 @@ $(function () {
     });
   });
 });
-
+ScrollReveal().reveal(".logo", {
+  delay: 100,
+  origin: "left",
+  distance: "200px",
+  reset: true,
+});
 ScrollReveal().reveal(".nav-link", {
   delay: 100,
   origin: "top",
@@ -46,9 +51,9 @@ ScrollReveal().reveal(".home-content", {
   reset: true,
 });
 ScrollReveal().reveal(".hero-img", {
-  delay: 150,
+  delay: 250,
   origin: "bottom",
-  distance: "150px",
+  distance: "250px",
   reset: true,
 });
 

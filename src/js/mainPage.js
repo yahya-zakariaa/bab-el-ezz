@@ -62,26 +62,26 @@ ScrollReveal().reveal(".hero-img", {
 });
 
 ScrollReveal().reveal(".download-app", {
-  delay: 100,
+  delay: 200,
   origin: "left",
-  distance: "150px",
-  reset: false,
+  distance: "350px",
+  reset: true,
 });
 
 ScrollReveal().reveal(".title-shape", {
-  delay: 100,
+  delay: 200,
   origin: "right",
   distance: "150px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".information-content h6", {
-  delay: 100,
+  delay: 200,
   origin: "right",
   distance: "250px",
   reset: true,
 });
 ScrollReveal().reveal(".info-content", {
-  delay: 100,
+  delay: 200,
   origin: "bottom",
   distance: "150px",
   reset: true,
@@ -93,111 +93,111 @@ ScrollReveal().reveal(".section-two-img", {
   reset: true,
 });
 ScrollReveal().reveal(".get-price-sub", {
-  delay: 100,
+  delay: 200,
   origin: "right",
   distance: "250px",
-  reset: true,
+  reset: false,
 });
 
 ScrollReveal().reveal(".sub-title", {
-  delay: 100,
+  delay: 200,
   origin: "right",
   distance: "250px",
-  reset: true,
+  reset: false,
 });
 
 ScrollReveal().reveal(".sub-p", {
-  delay: 100,
+  delay: 200,
   origin: "bottom",
   distance: "50px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".price-sp", {
-  delay: 100,
+  delay: 200,
   origin: "bottom",
   distance: "50px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".download-app-form-sub", {
-  delay: 100,
+  delay: 200,
   origin: "right",
   distance: "200px",
-  reset: true,
+  reset: false,
 });
 
 ScrollReveal().reveal(".mobile-video", {
   delay: 200,
   origin: "bottom",
   distance: "200px",
-  reset: true,
+  reset: false,
 });
 
 ScrollReveal().reveal(".use-card", {
-  delay: 100,
+  delay: 200,
   origin: "right",
   distance: "300px",
-  reset: true,
+  reset: false,
 });
 
 ScrollReveal().reveal(".uses-img", {
-  delay: 100,
+  delay: 200,
   origin: "bottom",
   distance: "400px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".sections-row", {
-  delay: 100,
+  delay: 200,
   origin: "bottom",
   distance: "400px",
-  reset: true,
+  reset: false,
 });
 
 ScrollReveal().reveal(".customers-card", {
-  delay: 100,
+  delay: 200,
   origin: "bottom",
   distance: "400px",
-  reset: true,
+  reset: false,
 });
 
 ScrollReveal().reveal(".footer-links h5 ", {
-  delay: 100,
+  delay: 200,
   origin: "right",
   distance: "200px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".footer-links a ", {
-  delay: 150,
+  delay: 250,
   origin: "bottom",
   distance: "150px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".footer-contact h5 ", {
-  delay: 100,
+  delay: 200,
   origin: "right",
   distance: "200px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".footer-contact a ", {
-  delay: 150,
+  delay: 250,
   origin: "right",
   distance: "150px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".footer-contact p ", {
-  delay: 150,
+  delay: 250,
   origin: "right",
   distance: "150px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".footer-img img ", {
-  delay: 150,
+  delay: 250,
   origin: "top",
   distance: "350px",
-  reset: true,
+  reset: false,
 });
 ScrollReveal().reveal(".footer-copyright p ", {
-  delay: 100,
+  delay: 200,
   origin: "bottom",
   distance: "50px",
-  reset: true,
+  reset: false,
 });

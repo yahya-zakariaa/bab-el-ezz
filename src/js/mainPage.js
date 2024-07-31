@@ -1,6 +1,7 @@
 const toggleInfo = document.querySelector("#info-btn");
 const info = document.querySelector(".information-content");
 const infoLayer = document.querySelector(".info-layer");
+const information = document.querySelector("#information");
 const mainHeight = $(info).height();
 
 $(function () {
@@ -22,9 +23,10 @@ $(function () {
       info.style.cssText = `height: ${mainHeight}px !important; overflow: hidden; `;
       infoLayer.style.cssText = "opacity: 1;";
       $(toggleInfo)
-        .find("i")
-        .removeClass("fa-arrow-up")
-        .addClass("fa-arrow-down");
+      .find("i")
+      .removeClass("fa-arrow-up")
+      .addClass("fa-arrow-down");
+      window.scrollTo(0, information.offsetTop );
     }
   });
 });

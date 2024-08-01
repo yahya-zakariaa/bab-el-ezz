@@ -17,6 +17,9 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+P,h1,h2,h3,h4,h5,h6,a {
+  font-family: "Cairo", sans-serif !important;
+}
 :root {
   --primary-color: #289168;
   --secondery-color: #53dca6;
